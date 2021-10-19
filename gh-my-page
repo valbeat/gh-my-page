@@ -1,0 +1,4 @@
+#!/bin/bash
+
+account_name=$(cat ${HOME}/.config/gh/hosts.yml | sed -rn "s/user: ()/\1/p" | sed 's/ //g')
+open https://github.com/${account_name}
