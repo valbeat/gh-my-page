@@ -11,6 +11,6 @@ gh my-page
 ## Installation
 
 ```sh
-gh extension install valbeat/gh-mypage
+gh extension install valbeat/gh-my-page
 ```
 
